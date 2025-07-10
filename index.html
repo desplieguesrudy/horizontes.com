@@ -1,8 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Sin acceso</title>
+  <style>
+    body {
+      background-color: #fff;
+      color: #333;
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+    .mensaje {
+      max-width: 90%;
+    }
+    .mensaje p {
+      margin: 0.5em 0;
+    }
+    .mensaje p:first-child {
+      font-size: 2em;
+    }
+    .mensaje p:last-child {
+      font-size: 1.2em;
+      color: #777;
+    }
+    @media (max-width: 600px) {
+      .mensaje p:first-child {
+        font-size: 1.5em;
+      }
+      .mensaje p:last-child {
+        font-size: 1em;
+      }
+    }
+  </style>
+</head>
 <body>
-  <div>
+  <div class="mensaje">
     <p>Ups... lo siento Nao 😢</p>
-    <p style="font-size: 0.5em; color: #bbb;">El contenido ya lo quité.</p>
+    <p>El contenido ya lo quité.</p>
   </div>
 </body>
+</html>
+
 
 
